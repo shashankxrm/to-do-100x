@@ -11,5 +11,5 @@ const todoSchema = mongoosee.Schema({
 const todo = mongoosee.model("todos", todoSchema);
 
 module.exports = {
-    todo: todo
+    todo
 }
